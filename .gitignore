@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Re-creatable data: raw ESCO API cache (`skills-gap ingest`) and the vector index (`skills-gap build`).
+# The cleaned tables in data/processed/ are committed, so the project runs without calling the API.
+data/raw/
+data/chroma/
+
+# Local secrets
+.env

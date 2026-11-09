@@ -1,0 +1,51 @@
+query,expected
+"I remove duplicates, fix typos and fill missing values before analysis",perform data cleansing
+I write SQL to pull data out of our databases,query languages
+I build Power BI dashboards for executives,deliver visual presentation of data;visual presentation techniques
+I reconcile the pipeline output against the source system to prove the numbers are right,implement data quality processes;data quality assessment
+I write Python scripts that transform daily network exports into reports,develop data processing applications;process data
+"I design tables, keys and relationships for a new database",design database scheme;create data models;data models
+I set the rules for what counts as a valid record,define data quality criteria
+I train models that suggest products a customer might like,build recommender systems
+I use regex to extract house numbers from free-text addresses,utilise regular expressions;information extraction
+I run hypothesis tests and regressions on survey results,apply statistical analysis techniques;statistics
+I track monthly targets like installations and churn,track key performance indicators
+I find and fix bugs in code using a debugger,debug software;ICT debugging tools
+I write user guides and technical docs for the systems I build,provide technical documentation
+I meet business users to understand what they need from a new system,interact with users to gather requirements;identify customer requirements;analyse business requirements
+"I plan the project timeline, budget and resources and keep it on track",manage ICT project;perform project management;project management
+I estimate how many days each task will take,estimate duration of work
+I build ETL jobs with tools like SSIS or Airflow,"data extraction, transformation and loading tools"
+I classify text and analyse language with NLP,natural language processing
+I mentor junior analysts and help them grow,coach employees;train employees
+I check whether a project is worth doing before we start,execute feasibility study;provide cost benefit analysis reports
+I schedule regular database backups so we can restore data,perform backups
+I keep customer personal information confidential and limit who can see it,information confidentiality
+I explain analysis findings to managers in a presentation,report analysis results
+I work with very large datasets with millions of rows,analyse big data
+I look for hidden patterns in data using machine learning,data mining;perform data mining
+"I handle text, images and documents that don't fit into tables",unstructured data
+I write unit tests and integration tests,levels of software testing;manage system testing
+I monitor server and application response times,monitor system performance
+I map out how a business process works step by step,business process modelling;analyse business processes
+I use Git to version control my code,tools for software configuration management
+"I write HTML, CSS and JavaScript for websites",web programming;use markup languages
+I combine data from different systems into one view,integrate ICT data
+I scan our systems for security weaknesses,perform security vulnerability assessments;identify ICT system weaknesses
+I make sure our data handling complies with privacy law,ICT security legislation;identify legal requirements;ensure compliance with policies
+I break problems down into step-by-step algorithms,task algorithmisation
+I use the pandas and NumPy libraries,use software libraries
+I draw flowcharts of how a program works,create flowchart diagram
+I use multidimensional cubes for fast slice-and-dice reporting,online analytical processing
+I document what each database table and column means,write database documentation
+I reuse proven solutions like the factory and singleton patterns,use software design patterns
+I organise information into categories and taxonomies,information categorisation
+I interview and hire new team members,recruit employees
+I manage a budget and control spending,manage budgets
+I identify what could go wrong in a project and plan for it,perform risk analysis
+"I store data in databases, data lakes and file storage",data storage
+I write programs in Python and Java,computer programming
+I resolve disagreements between team members,apply conflict management
+I standardise data so the same value is always written the same way,normalise data
+I run SPARQL queries on a knowledge graph,resource description framework query language
+I take samples of data to test my assumptions,handle data samples

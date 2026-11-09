@@ -1,0 +1,47 @@
+{
+  "_note": "Fictional people for demonstration. No real personal data is used anywhere in this project.",
+  "employees": [
+    {
+      "id": "E001",
+      "name": "Lerato M.",
+      "current_role": "data analyst",
+      "target_role": "data scientist",
+      "statements": [
+        "I write SQL queries to pull sales data from our databases",
+        "I build Power BI dashboards for the executive team",
+        "I clean messy spreadsheets: removing duplicates and fixing missing values",
+        "I present monthly findings to managers",
+        "I track KPIs like revenue, churn and customer growth",
+        "I use Excel pivot tables and formulas every day"
+      ]
+    },
+    {
+      "id": "E002",
+      "name": "Sipho K.",
+      "current_role": "software developer",
+      "target_role": "database developer",
+      "statements": [
+        "I write backend services in Python and Java",
+        "I find and fix bugs using a debugger and logs",
+        "I write unit tests and integration tests for every feature",
+        "I use Git and pull requests for code review",
+        "I write SQL queries and stored procedures for our application",
+        "I document APIs for other developers"
+      ]
+    },
+    {
+      "id": "E003",
+      "name": "Thandi N.",
+      "current_role": "data quality specialist",
+      "target_role": "ICT intelligent systems designer",
+      "statements": [
+        "I define rules for what makes a customer record valid",
+        "I reconcile reports against source systems to prove the numbers are right",
+        "I standardise addresses and names so they're always written the same way",
+        "I investigate data issues and explain the root cause to the business",
+        "I keep customer personal information confidential under POPIA",
+        "I use Python and pandas to automate data checks"
+      ]
+    }
+  ]
+}

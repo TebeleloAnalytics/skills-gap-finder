@@ -1,0 +1,40 @@
+[project]
+name = "skills-gap-finder"
+version = "0.1.0"
+description = "Skills-gap analysis with ESCO data, embeddings, a Chroma vector database, retrieval evaluation and RAG"
+authors = [
+    { name = "Tebelelo Selowa", email = "101002321+TebeleloAnalytics@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=2.6.0",
+    "chromadb>=1.5.9",
+    "fastapi>=0.162.2",
+    "fastembed>=0.9.1",
+    "pandas>=3.1.1",
+    "pydantic>=2.14.3",
+    "requests>=2.34.2",
+    "scikit-learn>=1.9.1",
+    "tabulate>=0.10.0",
+    "uvicorn>=0.54.0",
+]
+
+[project.scripts]
+skills-gap = "skills_gap_finder.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.2.0",
+    "ruff>=0.17.4",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
